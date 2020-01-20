@@ -14,7 +14,19 @@ HTML to Pug Jest snapshot serializer
 - `npm` >= v5
 - `jest` >= v22.x
 
+```bash
+npm install --save-dev @arbetsmyra/jest-serializer-pug
+```
+
 ## Usage
+
+Once the `@arbetsmyra/jest-serializer-pug` package is installed, you can use it by specifying the `@arbetsmyra/jest-serializer-pug` serializer for the [`snapshotSerializers`](https://jestjs.io/docs/en/configuration#snapshotserializers-arraystring) property in the [Jest configuration](https://jestjs.io/docs/en/configuration).
+
+```js
+{
+  "snapshotSerializers": ["@arbetsmyra/jest-serializer-pug"]
+}
+```
 
 ## Contributing
 
