@@ -1,0 +1,35 @@
+{
+  "name": "@arbetsmyra/jest-serializer-pug",
+  "version": "0.0.1",
+  "description": "HTML to Pug Jest snapshot serializer",
+  "main": "jest-serializer-pug.js",
+  "scripts": {
+    "test:unit": "jest",
+    "test:lint": "eslint ./*/**.js",
+    "test": "npm run test:lint && npm run test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbetsmyra/jest-serializer-pug.git"
+  },
+  "keywords": [
+    "pug",
+    "jest",
+    "arbetsmyra"
+  ],
+  "author": "Anthon <anthon.kendel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@arbetsmyra/eslint-config": "^1.0.1",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/arbetsmyra/jest-serializer-pug/issues"
+  },
+  "homepage": "https://github.com/arbetsmyra/jest-serializer-pug#readme",
+  "dependencies": {
+    "html2pug": "^4.0.0"
+  }
+}
