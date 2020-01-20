@@ -15,6 +15,9 @@
   "keywords": [
     "pug",
     "jest",
+    "snapshot",
+    "snapshot-testing",
+    "jest-snapshot-serializer",
     "arbetsmyra"
   ],
   "author": "Anthon <anthon.kendel@gmail.com>",
