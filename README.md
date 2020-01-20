@@ -28,6 +28,8 @@ Once the `@arbetsmyra/jest-serializer-pug` package is installed, you can use it 
 }
 ```
 
+The serializer support values that are of type [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) or [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element). Internally it uses [`html2pug`](https://github.com/izolate/html2pug) to convert HTML to Pug template.
+
 ## Contributing
 
 If you want to contribute and make our project better, your help is very welcome.
@@ -37,7 +39,3 @@ Our contribution guide is right now a bit empty but will be improved in the futu
 ## License
 
 [MIT © Arbetsmyra](https://choosealicense.com/licenses/mit/)
-
----
-
-_Template is based on [makeareadme.com](https://www.makeareadme.com/#readme-101)_
