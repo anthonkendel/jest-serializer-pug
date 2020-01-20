@@ -1,6 +1,6 @@
 # [`jest-serializer-pug`](https://github.com/arbetsmyra/jest-serializer-pug)
 
-HTML to Pug Jest snapshot serializer
+Pug Jest snapshot serializer
 
 [![latest git version](https://img.shields.io/github/v/tag/arbetsmyra/jest-serializer-pug?label=version)](https://github.com/arbetsmyra/jest-serializer-pug)
 [![latest npm version](https://img.shields.io/npm/v/@arbetsmyra/jest-serializer-pug)](https://www.npmjs.com/package/@arbetsmyra/jest-serializer-pug)

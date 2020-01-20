@@ -1,7 +1,7 @@
 {
   "name": "@arbetsmyra/jest-serializer-pug",
   "version": "0.0.1",
-  "description": "HTML to Pug Jest snapshot serializer",
+  "description": "Pug Jest snapshot serializer",
   "main": "jest-serializer-pug.js",
   "scripts": {
     "test:unit": "jest",
