@@ -5,6 +5,8 @@ Pug Jest snapshot serializer
 [![latest git version](https://img.shields.io/github/v/tag/arbetsmyra/jest-serializer-pug?label=version)](https://github.com/arbetsmyra/jest-serializer-pug)
 [![latest npm version](https://img.shields.io/npm/v/@arbetsmyra/jest-serializer-pug)](https://www.npmjs.com/package/@arbetsmyra/jest-serializer-pug)
 [![license](https://img.shields.io/github/license/arbetsmyra/jest-serializer-pug)](https://github.com/arbetsmyra/jest-serializer-pug/blob/master/LICENSE)
+[![Actions](https://github.com/arbetsmyra/jest-serializer-pug/workflows/Actions/badge.svg)](https://github.com/arbetsmyra/jest-serializer-pug/actions)
+
 
 ## Installation
 

@@ -1,4 +1,4 @@
-name: Default workflow (npm ci, npm test)
+name: Actions
 
 on:
   push:
