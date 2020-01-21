@@ -7,12 +7,10 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
     steps:
-      - uses: ./default.yml
+      - uses: ./default
 
       - uses: ziishaned/jest-reporter-action@v0.0.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          test-command: "yarn jest --coverage"
+          test-command: "npm test"
