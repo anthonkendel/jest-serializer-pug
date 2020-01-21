@@ -1,4 +1,4 @@
-name: Default (npm ci, npm test)
+name: Default workflow (npm ci, npm test)
 
 on:
   push:
@@ -6,6 +6,12 @@ on:
       - master
 
 jobs:
-  build:
+  default-workflow:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+
     steps:
       - uses: ./default
