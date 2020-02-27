@@ -13,7 +13,7 @@ Pug Jest snapshot serializer
 
 - `node` >= v10
 - `npm` >= v5
-- `jest` >= v22.x
+- `jest` >= v22
 
 ```bash
 npm install --save-dev jest-serializer-pug
