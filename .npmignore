@@ -1,6 +1,8 @@
 .eslintrc.js
-.gitignore
-*.code-workspace
 .github
-renovate.json
+.gitignore
 .prettierignore
+*.code-workspace
+renovate.json
+coverage
+__tests__
