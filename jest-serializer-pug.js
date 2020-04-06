@@ -16,7 +16,6 @@ function isHTML(value) {
   return value instanceof Element;
 }
 
-
 module.exports = {
   test(value) {
     return isString(value) || isHTML(value);

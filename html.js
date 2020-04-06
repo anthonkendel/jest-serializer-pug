@@ -73,7 +73,6 @@ const stringClass = new String(string);
 
 const element = htmlToElement(string);
 
-
 module.exports = {
   htmlToElement,
   string,

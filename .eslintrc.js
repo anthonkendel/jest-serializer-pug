@@ -2,5 +2,5 @@ module.exports = {
   env: {
     jest: true,
   },
-  extends: ['@arbetsmyra/eslint-config']
+  extends: ['@arbetsmyra/eslint-config'],
 };

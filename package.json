@@ -1,30 +1,19 @@
 {
-  "version": "1.1.1",
   "name": "jest-serializer-pug",
+  "version": "1.1.1",
   "description": "Pug Jest snapshot serializer",
-  "author": "Anthon <anthon.kendel@gmail.com>",
-  "license": "MIT",
   "main": "jest-serializer-pug.js",
   "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "eslint": "eslint ./*/**.js",
+    "eslint:fix": "npm run eslint -- --fix",
     "test:unit": "jest",
-    "test:lint": "eslint ./*/**.js",
-    "test": "npm run test:lint && npm run test:unit -- --coverage"
+    "test": "npm run eslint && npm run prettier:check && npm run test:unit -- --coverage"
   },
-  "homepage": "https://github.com/anthonkendel/jest-serializer-pug#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anthonkendel/jest-serializer-pug.git"
-  },
-  "bugs": {
-    "url": "https://github.com/anthonkendel/jest-serializer-pug/issues"
-  },
-  "dependencies": {
-    "html2pug": "^4.0.0"
-  },
-  "devDependencies": {
-    "@arbetsmyra/eslint-config": "^1.0.1",
-    "eslint": "^6.8.0",
-    "jest": "^25.1.0"
   },
   "keywords": [
     "pug",
@@ -33,5 +22,27 @@
     "snapshot-testing",
     "jest-snapshot-serializer",
     "anthonkendel"
-  ]
+  ],
+  "author": "Anthon <anthon.kendel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonkendel/jest-serializer-pug/issues"
+  },
+  "homepage": "https://github.com/anthonkendel/jest-serializer-pug#readme",
+  "dependencies": {
+    "html2pug": "^4.0.0"
+  },
+  "devDependencies": {
+    "@arbetsmyra/eslint-config": "^1.0.1",
+    "@arbetsmyra/prettier-config": "^1.0.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "prettier": "^2.0.4"
+  },
+  "renovate": {
+    "extends": [
+      "@arbetsmyra"
+    ]
+  },
+  "prettier": "@arbetsmyra/prettier-config"
 }
