@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/anthonkendel/jest-serializer-pug#readme",
   "dependencies": {
-    "html2pug": "^4.0.0"
+    "html2pug": "4.0.0"
   },
   "devDependencies": {
     "@arbetsmyra/eslint-config": "1.0.1",
