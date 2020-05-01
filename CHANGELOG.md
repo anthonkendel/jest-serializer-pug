@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/anthonkendel/jest-serializer-pug/compare/v1.5.0...v1.6.0) (2020-05-01)
+
+
+### Features
+
+* update README and force release ([3b70c77](https://github.com/anthonkendel/jest-serializer-pug/commit/3b70c77716eed9b2f4ed867325d57b27dfdde8d2))
+
 # [1.5.0](https://github.com/anthonkendel/jest-serializer-pug/compare/v1.4.0...v1.5.0) (2020-05-01)
 
 
