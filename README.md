@@ -138,8 +138,6 @@ No
 
 If you want to contribute and make our project better, your help is very welcome.
 
-Our contribution guide is right now a bit empty but will be improved in the future. If you have any requests or suggestions please create an issue with the necessary information and we will get back to you.
-
 ## License
 
 [MIT © anthonkendel](https://choosealicense.com/licenses/mit/)
