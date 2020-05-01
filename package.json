@@ -36,12 +36,12 @@
     "html2pug": "4.0.0"
   },
   "devDependencies": {
-    "@arbetsmyra/commitlint-config": "^1.2.0",
+    "@arbetsmyra/commitlint-config": "1.2.0",
     "@arbetsmyra/eslint-config": "1.1.0",
     "@arbetsmyra/prettier-config": "1.2.0",
-    "@arbetsmyra/semantic-release-config": "^1.0.2",
+    "@arbetsmyra/semantic-release-config": "1.0.2",
     "eslint": "6.8.0",
-    "husky": "^4.2.5",
+    "husky": "4.2.5",
     "jest": "25.5.3",
     "prettier": "2.0.5"
   },
