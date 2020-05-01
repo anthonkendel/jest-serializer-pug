@@ -8,8 +8,10 @@
     "prettier:write": "prettier --write .",
     "eslint": "eslint ./*/**.js",
     "eslint:fix": "npm run eslint -- --fix",
+    "lint:fix": "npm run eslint:fix && npm run prettier:write",
+    "lint": "npm run eslint && npm run prettier:check",
     "test:unit": "jest",
-    "test": "npm run eslint && npm run prettier:check && npm run test:unit -- --coverage"
+    "test": "npm run lint && npm run test:unit -- --coverage"
   },
   "repository": {
     "type": "git",
@@ -33,9 +35,11 @@
     "html2pug": "4.0.0"
   },
   "devDependencies": {
+    "@arbetsmyra/commitlint-config": "^1.2.0",
     "@arbetsmyra/eslint-config": "1.1.0",
     "@arbetsmyra/prettier-config": "1.2.0",
     "eslint": "6.8.0",
+    "husky": "^4.2.5",
     "jest": "25.5.3",
     "prettier": "2.0.5"
   },
@@ -44,5 +48,16 @@
       "@arbetsmyra"
     ]
   },
-  "prettier": "@arbetsmyra/prettier-config"
+  "prettier": "@arbetsmyra/prettier-config",
+  "commitlint": {
+    "extends": [
+      "@arbetsmyra"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint:fix"
+    }
+  }
 }
