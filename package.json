@@ -6,7 +6,7 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "eslint": "eslint ./*/**.js",
+    "eslint": "eslint .",
     "eslint:fix": "npm run eslint -- --fix",
     "lint:fix": "npm run eslint:fix && npm run prettier:write",
     "lint": "npm run eslint && npm run prettier:check",
