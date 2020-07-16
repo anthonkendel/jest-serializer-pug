@@ -5,7 +5,6 @@ Pug Jest snapshot serializer
 [![latest git version](https://img.shields.io/github/v/tag/anthonkendel/jest-serializer-pug?label=version)](https://github.com/anthonkendel/jest-serializer-pug)
 [![latest npm version](https://img.shields.io/npm/v/jest-serializer-pug)](https://www.npmjs.com/package/jest-serializer-pug)
 [![license](https://img.shields.io/github/license/anthonkendel/jest-serializer-pug)](https://github.com/anthonkendel/jest-serializer-pug/blob/master/LICENSE)
-[![Actions](https://github.com/anthonkendel/jest-serializer-pug/workflows/Actions/badge.svg)](https://github.com/anthonkendel/jest-serializer-pug/actions)
 
 ## Installation
 
