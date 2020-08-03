@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/anthonkendel/jest-serializer-pug/compare/v1.6.0...v1.6.1) (2020-08-03)
+
+
+### Bug Fixes
+
+* run npm audit fix ([c3163ba](https://github.com/anthonkendel/jest-serializer-pug/commit/c3163babc7a15069c9f805e37db63de9b4c648f4))
+
 # [1.6.0](https://github.com/anthonkendel/jest-serializer-pug/compare/v1.5.0...v1.6.0) (2020-05-01)
 
 
