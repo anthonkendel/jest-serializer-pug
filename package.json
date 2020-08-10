@@ -36,7 +36,7 @@
     "html2pug": "4.0.0"
   },
   "devDependencies": {
-    "@arbetsmyra/commitlint-config": "1.3.2",
+    "@arbetsmyra/commitlint-config": "2.0.0",
     "@arbetsmyra/eslint-config": "1.1.0",
     "@arbetsmyra/prettier-config": "1.2.0",
     "@arbetsmyra/semantic-release-config": "1.0.5",
