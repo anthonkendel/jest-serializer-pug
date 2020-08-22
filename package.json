@@ -43,7 +43,7 @@
     "@commitlint/cli": "9.1.2",
     "eslint": "7.7.0",
     "husky": "4.2.5",
-    "jest": "26.4.1",
+    "jest": "26.4.2",
     "prettier": "2.0.5"
   },
   "renovate": {
