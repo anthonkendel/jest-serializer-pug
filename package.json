@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-pug",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Pug Jest snapshot serializer",
   "main": "jest-serializer-pug.js",
   "scripts": {
