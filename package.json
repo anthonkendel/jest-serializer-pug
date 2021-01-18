@@ -6,10 +6,8 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "eslint": "eslint .",
-    "eslint:fix": "npm run eslint -- --fix",
-    "lint:fix": "npm run eslint:fix && npm run prettier:write",
-    "lint": "npm run eslint && npm run prettier:check",
+    "lint:fix": "npm run prettier:write",
+    "lint": "npm run prettier:check",
     "test:unit": "jest",
     "test": "npm run lint && npm run test:unit -- --coverage",
     "semantic-release": "semantic-release"
@@ -37,11 +35,9 @@
   },
   "devDependencies": {
     "@arbetsmyra/commitlint-config": "2.1.0",
-    "@arbetsmyra/eslint-config": "1.1.0",
     "@arbetsmyra/prettier-config": "1.2.1",
     "@arbetsmyra/semantic-release-config": "1.1.10",
     "@commitlint/cli": "11.0.0",
-    "eslint": "7.18.0",
     "husky": "4.3.8",
     "jest": "26.6.3",
     "prettier": "2.2.1"
