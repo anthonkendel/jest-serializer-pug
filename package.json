@@ -36,7 +36,7 @@
   "devDependencies": {
     "@arbetsmyra/commitlint-config": "2.1.0",
     "@arbetsmyra/prettier-config": "1.2.1",
-    "@arbetsmyra/semantic-release-config": "1.1.14",
+    "@arbetsmyra/semantic-release-config": "1.1.15",
     "@commitlint/cli": "11.0.0",
     "husky": "4.3.8",
     "jest": "26.6.3",
