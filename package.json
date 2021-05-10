@@ -40,7 +40,7 @@
     "@commitlint/cli": "12.1.1",
     "husky": "4.3.8",
     "jest": "26.6.3",
-    "prettier": "2.2.1"
+    "prettier": "2.3.0"
   },
   "renovate": {
     "extends": [
